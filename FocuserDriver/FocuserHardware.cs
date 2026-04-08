@@ -300,7 +300,7 @@ namespace ASCOM.ssagerianunofocuser.Focuser
 
                         try
                         {
-                            transport.PortName = "COM6"; // temporary hardcoded port
+                            transport.PortName = comPort;
                             transport.Connect();
                             LogMessage("SetConnected", "Hardware connection established.");
                         }

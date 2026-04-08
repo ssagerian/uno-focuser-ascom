@@ -43,8 +43,10 @@ namespace ASCOM.ssagerianunofocuser.Focuser
                 FocuserHardware.comPort = (string)comboBoxComPort.SelectedItem;
                 tl.LogMessage("Setup OK", $"New configuration values - COM Port: {comboBoxComPort.SelectedItem}");
             }
-        }
 
+            this.DialogResult = DialogResult.OK;
+            this.Close();
+        }
         private void CmdCancel_Click(object sender, EventArgs e) // Cancel button event handler
         {
             Close();
