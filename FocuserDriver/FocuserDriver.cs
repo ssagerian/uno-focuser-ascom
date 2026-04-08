@@ -37,7 +37,7 @@ namespace ASCOM.ssagerianunofocuser.Focuser
     [ComVisible(true)]
     [Guid("9cd30aa7-2d97-4460-ac2b-d1e5dfde508e")]
     [ProgId("ASCOM.ssagerianunofocuser.Focuser")]
-    [ServedClassName("ASCOM Focuser Driver for ssagerianunofocuser")] // Driver description that appears in the Chooser, customise as required
+    [ServedClassName("ASCOM Focuser Driver for uno focuser")] // Driver description that appears in the Chooser, customise as required
     [ClassInterface(ClassInterfaceType.None)]
     public class Focuser : ReferenceCountedObjectBase, IFocuserV4, IDisposable
     {

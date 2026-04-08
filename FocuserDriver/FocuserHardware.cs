@@ -426,7 +426,7 @@ namespace ASCOM.ssagerianunofocuser.Focuser
             // TODO customise this device name as required
             get
             {
-                string name = "Short driver name - please customise";
+                string name = "UNO Focuser";
                 LogMessage("Name Get", name);
                 return name;
             }
